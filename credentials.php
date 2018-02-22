@@ -7,6 +7,6 @@
  */
 
 $servername = "localhost";
-$username = "mckayfil";
-$password = "6SZhx40s8y";
+$username = "test";
+$password = "Testing123!";
 $dbname = "mckayfil_inventory";
