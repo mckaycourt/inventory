@@ -1,0 +1,50 @@
+[06-Sep-2017 14:22:53 America/Chicago] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/mckayfil/public_html/inventory/itemDetails.php on line 76
+[06-Sep-2017 14:24:12 America/Chicago] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/mckayfil/public_html/inventory/itemDetails.php on line 76
+[06-Sep-2017 16:12:20 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home/mckayfil/public_html/inventory/addEmployee.php on line 30
+[06-Sep-2017 17:15:14 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 77
+[06-Sep-2017 17:15:37 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 77
+[06-Sep-2017 17:28:52 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 77
+[06-Sep-2017 17:32:20 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 77
+[07-Sep-2017 18:50:08 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 80
+[07-Sep-2017 21:27:21 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 83
+[07-Sep-2017 21:27:25 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 83
+[07-Sep-2017 21:27:46 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 83
+[07-Sep-2017 21:51:51 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 83
+[07-Sep-2017 21:51:53 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 83
+[07-Sep-2017 21:52:09 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 83
+[07-Sep-2017 21:57:48 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 88
+[11-Sep-2017 17:53:26 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 94
+[11-Sep-2017 17:55:09 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 95
+[13-Sep-2017 13:28:50 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/allEmployees.php on line 91
+[29-Sep-2017 11:07:20 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 95
+[08-Oct-2017 23:59:21 America/Chicago] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/mckayfil/public_html/inventory/createJSON.php on line 57
+[08-Oct-2017 23:59:21 America/Chicago] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/mckayfil/public_html/inventory/createJSON.php on line 57
+[09-Oct-2017 00:21:19 America/Chicago] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/mckayfil/public_html/inventory/createJSON.php on line 97
+[09-Oct-2017 00:21:43 America/Chicago] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/mckayfil/public_html/inventory/createJSON.php on line 97
+[18-Oct-2017 12:24:26 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 95
+[18-Oct-2017 12:24:50 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 95
+[01-Nov-2017 14:00:06 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 95
+[01-Nov-2017 15:25:18 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 95
+[01-Nov-2017 15:57:51 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 98
+[01-Nov-2017 16:48:59 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 98
+[01-Nov-2017 16:49:35 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 98
+[01-Nov-2017 16:49:39 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 98
+[01-Nov-2017 16:50:53 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:51:59 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:52:01 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:52:23 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:52:25 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:52:49 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:56:30 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:58:20 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:58:50 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 16:58:53 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 17:00:38 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 17:01:09 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 17:01:48 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 17:01:48 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 97
+[01-Nov-2017 17:02:32 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 95
+[01-Nov-2017 17:26:52 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 98
+[01-Nov-2017 17:33:23 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 98
+[01-Nov-2017 17:53:19 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 98
+[01-Nov-2017 17:54:08 America/Chicago] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/mckayfil/public_html/inventory/itemDetails.php on line 98

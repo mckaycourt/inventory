@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+Go to Inventory: <a href="index.php">boom</a>
+
+<div id="test"></div>
+</body>
+</html>
+
+<script src="jquery.js"></script>
+<script>
+    $.ajax({
+        url: "http://signage.byu.edu/religious-education",
+        dataType: "html",
+        type: "POST",
+        success: function (data) {
+            console.log(data);
+            $('#test').html($(data).find("#slide").html());
+        }
+    });
+
+
+</script>

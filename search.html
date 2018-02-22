@@ -1,0 +1,87 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="table.css">
+</head>
+<style>
+    .options{
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.428571429;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <script src="jquery.js"></script>
+
+</head>
+<body>
+<div id="menu"></div>
+
+<div class="options" data-value='employee' id="employee" onclick="change(this)">Employee</div>
+<div class="options" data-value='computer' id="computer" onclick="change(this)">Computer</div>
+<div class="options" data-value='monitor' id="monitor" onclick="change(this)">Monitor</div>
+<div class="options" data-value='printer' id="printer" onclick="change(this)">Printer</div>
+<div class="options" data-value='peripheral' id="peripheral" onclick="change(this)">Peripheral</div>
+<div class="options" data-value='hardware' id="hardware" onclick="change(this)">Hardware</div>
+<br><br>
+<form action="search.php" method="post" id="form">
+    <input type="text" placeholder="Search" id="search" onkeyup="query()">
+    <input type="hidden" value="employee" id="type">
+</form>
+<br>
+<div id="results"></div>
+
+</body>
+</html>
+
+<script>
+    function query() {
+        console.log("http://mckayfiles.com/inventory/search.php?search=" + document.getElementById("search").value + "&type=" + document.getElementById("type").value);
+        $.ajax({
+            url: "http://mckayfiles.com/inventory/searchItems.php?where=" + document.getElementById("search").value + "&type=" + document.getElementById("type").value,
+            dataType: "html",
+            type: "POST",
+            success: function (data) {
+                console.log(data);
+                $('#results').html(data);
+            }
+        });
+    }
+
+    function start() {
+        document.getElementById("employee").style.backgroundColor = "#4286f4";
+        $.ajax({
+            url: "menu.html",
+            dataType: "html",
+            type: "POST",
+            success: function (data) {
+                $('#menu').html(data);
+            }
+        });
+    }
+
+    function change(selected) {
+        $(".options").each(function () {
+            $(this).css("background-color", "white");
+        });
+        selected.style.backgroundColor = "#4286f4";
+        console.log(selected);
+        $("#type").val(selected.id);
+        query();
+
+    }
+    window.onload = start();
+</script>

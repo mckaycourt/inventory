@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        a:visited{
+            color: black;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial;
+        }
+
+        .navbar a, .navbar a:visited {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content, .dropdown-content a:visited {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            color: black;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="/inventory">Home</a>
+    <!--<a href="/inventory/allEmployees.php?type=employee">Employees</a>-->
+    <div class="dropdown">
+        <button class="dropbtn">Tables
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/inventory/allEmployees.php?type=employee">Employee</a>
+            <a href="/inventory/allEmployees.php?type=computer">Computer</a>
+            <a href="/inventory/allEmployees.php?type=hardware">Hardware</a>
+            <a href="/inventory/allEmployees.php?type=monitor">Monitor</a>
+            <a href="/inventory/allEmployees.php?type=printer">Printer</a>
+            <a href="/inventory/allEmployees.php?type=peripheral">Peripheral</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">New Item
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/inventory/newItem.php?type=computer">Computer</a>
+            <a href="/inventory/newItem.php?type=employee">Employee</a>
+            <a href="/inventory/newItem.php?type=monitor">Monitor</a>
+            <a href="/inventory/newItem.php?type=printer">Printer</a>
+            <a href="/inventory/newItem.php?type=peripheral">Peripheral</a>
+        </div>
+    </div>
+    <a href="/inventory/allEmployees.php?type=inventory">Inventory</a>
+    <a href="/inventory/search.html">Search</a>
+</div>
+</body>
+</html>

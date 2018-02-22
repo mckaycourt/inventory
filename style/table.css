@@ -1,0 +1,38 @@
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+input{
+    width: 100%;
+    border: none;
+}
+
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+img{
+    float: left;
+    padding: 50px;
+}
+
+.info{
+    padding-left: 100px;
+}
