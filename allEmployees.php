@@ -30,9 +30,11 @@
  * Time: 10:52 PM
  */
 
-$id = $_GET['id'];
 $type = $_GET['type'];
-$where = $_GET['where'];
+$where = "";
+if(isset($_GET['where'])){
+    $where = $_GET['where'];
+}
 
 $sql = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N'" . $type . "'";
 
@@ -42,7 +44,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-//$sql = "SELECT * FROM employee WHERE employeeId = $id";
 $result2 = $conn->query($sql);
 $total = 0;
 echo "<div class='left'>";
